@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d2544b6-4710-49a4-a7aa-b1e5f4b7e2b3" name="Default Changelist" comment="PyQT, 7/26">
-      <change afterPath="$PROJECT_DIR$/pyqt5example/lib/AuthDialog.py" afterDir="false" />
+    <list default="true" id="8d2544b6-4710-49a4-a7aa-b1e5f4b7e2b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt5example/example/pyqt_basic_3.ui" beforeDir="false" afterPath="$PROJECT_DIR$/pyqt5example/example/pyqt_basic_3.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyqt5example/lib/ViewtubeLayout.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyqt5example/lib/ViewtubeLayout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyqt5example/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyqt5example/main.py" afterDir="false" />
     </list>
@@ -328,26 +326,27 @@
     <session id="1521546872">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="9236" />
-          <entry key="txt" value="116" />
+          <entry key="py" value="10616" />
+          <entry key="txt" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="121" />
-          <entry key="Python" value="9236" />
+          <entry key="PLAIN_TEXT" value="122" />
+          <entry key="Python" value="10616" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -407,11 +406,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyqt5example/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+            <state relative-caret-position="118">
+              <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1564236596314" expanded="true" signature="403:408" ph="..." />
+                <marker date="1564405301361" expanded="true" signature="409:414" ph="..." />
+                <marker date="1564405301361" expanded="true" signature="1851:2950" ph="..." />
+                <marker date="1564405301361" expanded="true" signature="4081:4086" ph="..." />
+                <marker date="1564405301361" expanded="true" signature="4081:4090" ph="..." />
               </folding>
             </state>
           </provider>
@@ -420,7 +422,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyqt5example/lib/AuthDialog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="435">
               <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -433,8 +435,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyqt5example/lib/ViewtubeLayout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="75" column="67" lean-forward="true" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
+            <state relative-caret-position="330">
+              <caret line="111" column="24" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -451,7 +453,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forstudy/July24th/4.5.3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="120">
               <caret line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -487,9 +489,11 @@
       <find>calendarwidget</find>
       <find>urlTextEdit_2</find>
       <find>pushButton</find>
-      <find>pushButton_4</find>
       <find>loginButton</find>
       <find>path</find>
+      <find>url</find>
+      <find>pushButton_4</find>
+      <find>progressBar</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -500,6 +504,7 @@
       <replace>pathTextEdit</replace>
       <replace>loginButton</replace>
       <replace>pushButton_4</replace>
+      <replace>exitButton</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -528,16 +533,16 @@
         <option value="$PROJECT_DIR$/pyqt5example/example/pyqt_basic_4.py" />
         <option value="$PROJECT_DIR$/pyqt5example/example/pyqt_basic_ui.py" />
         <option value="$PROJECT_DIR$/pyqt5example/lib/AuthDialog.py" />
-        <option value="$PROJECT_DIR$/pyqt5example/main.py" />
         <option value="$PROJECT_DIR$/pyqt5example/lib/ViewtubeLayout.py" />
+        <option value="$PROJECT_DIR$/pyqt5example/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="453" />
-    <option name="y" value="26" />
-    <option name="width" value="845" />
-    <option name="height" value="726" />
+    <option name="x" value="256" />
+    <option name="y" value="23" />
+    <option name="width" value="1016" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -777,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564149028588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PyQT, 7/27">
+      <created>1564236966279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564236966280</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="453" y="26" width="845" height="726" extended-state="0" />
+    <frame x="595" y="23" width="1016" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.44333747" />
@@ -789,7 +801,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42113563" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36392406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -813,7 +825,8 @@
     <MESSAGE value="pandas, 7/23" />
     <MESSAGE value="tinyDB, 7/25" />
     <MESSAGE value="PyQT, 7/26" />
-    <option name="LAST_COMMIT_MESSAGE" value="PyQT, 7/26" />
+    <MESSAGE value="PyQT, 7/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="PyQT, 7/27" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forstudy/July24th.py" />
@@ -916,9 +929,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5example/example/pyqt_basic_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -942,10 +959,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5example/lib/AuthDialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1564235084266" expanded="true" signature="69:74" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/forstudy/July26th/databases/database.db">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forstudy/July24th/4.5.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,6 +998,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pyqt5example/lib/ViewtubeLayout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pyqt5example/example/pyqt_basic_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -971,48 +1016,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt5example/example/pyqt_basic_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forstudy/July24th/4.5.3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt5example/lib/AuthDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1564235084266" expanded="true" signature="69:74" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt5example/lib/ViewtubeLayout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="75" column="67" lean-forward="true" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyqt5example/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="118">
+          <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1564236596314" expanded="true" signature="403:408" ph="..." />
+            <marker date="1564405301361" expanded="true" signature="409:414" ph="..." />
+            <marker date="1564405301361" expanded="true" signature="1851:2950" ph="..." />
+            <marker date="1564405301361" expanded="true" signature="4081:4086" ph="..." />
+            <marker date="1564405301361" expanded="true" signature="4081:4090" ph="..." />
           </folding>
         </state>
       </provider>
