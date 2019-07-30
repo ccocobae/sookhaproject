@@ -1,4 +1,5 @@
 import sys
+import pytube
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore
 from PyQt5 import uic
@@ -21,6 +22,9 @@ class Main(QMainWindow, Ui_MainWindow):
         self.user_id = None
         self.user_pw = None
         self.is_play = False
+
+        self.youtb = None
+        self.youtb_fsize = 0
 
     # 기본 UI 비활성화
     def initAuthLock(self):
@@ -75,10 +79,19 @@ class Main(QMainWindow, Ui_MainWindow):
                 self.previewButton.setText("중지")
                 self.is_play = True
                 self.startButton.setEnabled(True)
+                self.initialYouWork(url)
             else:
                 QMessageBox(self, "URL 형식 오류", "Youtube 주소 형식이 아닙니다.")
                 self.urlTextEdit.clear()
                 self.urlTextEdit.setFocus(True)
+
+    def initialYouWork(self, url):
+        video_list = pytube.YouTube(url)
+
+        self.youtb = video_list.streams.all()
+        self.streamCombobox.clear()
+        for q in self.youtb:
+            print(q)
 
     @pyqtSlot()
     def authCheck(self):
