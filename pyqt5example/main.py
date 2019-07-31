@@ -56,6 +56,7 @@ class Main(QMainWindow, Ui_MainWindow):
         self.exitButton.clicked.connect(QtCore.QCoreApplication.instance().quit)
         self.webEngineView.loadProgress.connect(self.showProgressBrowserLoading)
         self.fileNavButton.clicked.connect(self.selectDownPath)
+        self.startButton.clicked.connect(self.downloadYoutb)
 
     def load_url(self):
         url = self.urlTextEdit.text().strip()
@@ -88,10 +89,21 @@ class Main(QMainWindow, Ui_MainWindow):
     def initialYouWork(self, url):
         video_list = pytube.YouTube(url)
 
+        video_list.register_on_progress_callback(self.showProgressDownLoading)
+
         self.youtb = video_list.streams.all()
         self.streamCombobox.clear()
         for q in self.youtb:
-            print(q)
+            # print(q.itag, q.mime_type, q.abr)
+            tmp_list, str_list = [], []
+            tmp_list.append(str(q.mime_type or ''))
+            tmp_list.append(str(q.res or ''))
+            tmp_list.append(str(q.fps or ''))
+            tmp_list.append(str(q.abr or ''))
+
+            str_list = [x for x in tmp_list if x != '']
+
+            self.streamCombobox.addItem(','. join(str_list))
 
     @pyqtSlot()
     def authCheck(self):
@@ -134,6 +146,19 @@ class Main(QMainWindow, Ui_MainWindow):
         # 경로 선택
         fpath = QFileDialog.getExistingDirectory(self, 'Select Directory')
         self.pathTextEdit.setText(fpath)
+
+    @pyqtSlot()
+    def downloadYoutb(self):
+        down_dir = self.pathTextEdit.text().strip()
+        if down_dir is None or down_dir == '' or not down_dir:
+            QMessageBox.about(self, '경로 선택', '다운로드 받을 경로를 선택하세요.')
+            return None
+        self.youtb_fsize = self.youtb[self.streamCombobox.currentIndex()].filesize
+        self.youtb[self.streamCombobox.currentIndex()].download(down_dir, 'samplevideo')
+        self.append_log_msg('Download click')
+
+    def showProgressDownLoading(self, stream, chunk, finle_handle, bytes_remaining):
+        self.progressBar_2.setValue((int(self.youtb_fsize - bytes_remaining) / self.youtb_fsize) * 100)
 
 
 if __name__ == "__main__":
